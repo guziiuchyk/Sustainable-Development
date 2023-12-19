@@ -12,4 +12,4 @@
 [https://github.com/guziiuchyk/Sustainable-Development-React](https://github.com/guziiuchyk/Sustainable-Development-React)
 
 ---
-**Created by [Guziiuchyk](https://github.com/guziiuchyk)**#
+**Created by [Guziiuchyk](https://github.com/guziiuchyk)**
