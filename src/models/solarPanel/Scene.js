@@ -17,5 +17,5 @@ export function SolarPanelModel(props) {
     );
 }
 
-useGLTF.preload("/solarPanel.glb");
+useGLTF.preload("/models/solarPanel/solarPanel.glb");
 
