@@ -1,0 +1,54 @@
+
+.solarPanelWrapper{
+  position: relative;
+  height: 600px;
+}
+.isFullScreenButton{
+  position: absolute;
+  top: 20px;
+  right: 20px;
+  background-color: #f1efef;
+  width: 50px;
+  height: 50px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border-radius: 10px;
+}
+.isFullScreenButton__img{
+  width: 50px;
+  height: 50px;
+}
+.wrapper{
+  grid-template-columns: 4fr 6fr;
+  grid-template-rows: 1fr;
+}
+.text{
+  font-size: 20px;
+}
+.title{
+  font-size: 30px;
+  font-weight: 600;
+  text-align: center;
+  margin: 20px 0 ;
+}
+.textWrapper{
+  margin: 10px 0;
+  display: inline-block;
+  padding: 20px;
+}
+.grid{
+  display: grid;
+}
+@media (max-width: 700px) {
+  .solarPanelWrapper{
+    width: 100% !important;
+    height: 400px;
+  }
+  .isFullScreenButton{
+    display: none;
+  }
+  .grid{
+    display: block;
+  }
+}

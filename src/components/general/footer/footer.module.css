@@ -1,0 +1,33 @@
+.wrapper{
+  display: flex;
+  justify-content: space-around;
+  align-items: start;
+  background-color: #c2c2c2;
+  padding: 30px 10px;
+  font-size: 17px;
+  width: 100%;
+}
+.button{
+  background-color: #b0b0b0;
+  padding: 8px 20px;
+  user-select: none;
+}
+.company__name, .contacts__gmail{
+  font-weight: 700;
+}
+li > img{
+  width: 21px;
+  height: 15px;
+  padding: 0 5px 0 0 ;
+}
+@media (max-width: 666px) {
+  .wrapper{
+    flex-direction: column-reverse;
+  }
+  .wrapper{
+    padding: 10px 0 0 20%;
+  }
+  ul{
+    margin: 20px 0;
+  }
+}

@@ -1,0 +1,52 @@
+.wrapper{
+  height: 650px;
+  background-image: url("https://images4.alphacoders.com/117/1174142.jpg");
+  background-position: center;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.text{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 5px 30px;
+  width: 50%;
+  height: 300px;
+  border-radius: 30px;
+  box-shadow: 1px 2px 10px black;
+  background-color: white;
+
+}
+.img{
+  overflow: hidden;
+  height: 650px;
+  display: flex;
+  justify-content: center;
+}
+.title{
+  font-size: 22px;
+  font-weight: 700;
+  margin: 30px 0 0 0;
+}
+.subTitle{
+  font-size: 18px;
+  font-weight: 600;
+}
+.bold{
+  font-weight: 600;
+}
+.solarStats, .windStats{
+  margin: 10px 0;
+  font-size: 18px;
+}
+@media (max-width: 1000px) {
+  .text{
+    width: 70%;
+  }
+}
+@media (max-width: 700px) {
+  .text{
+    width: 80%;
+  }
+}
